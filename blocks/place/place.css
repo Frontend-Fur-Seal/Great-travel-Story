@@ -1,0 +1,10 @@
+.place{
+display: grid;
+grid-template-areas: 
+"title website"
+"image paragraph-first-of-type"
+"image paragraph";
+column-gap: 40px;
+row-gap: 48px;
+grid-template-columns: fit-content(460px) minmax(min-content, max-content);
+} 
