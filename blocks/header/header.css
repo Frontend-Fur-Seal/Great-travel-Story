@@ -1,6 +1,6 @@
 .header{
     margin: 28px auto 56px;
-    max-width: 1184px;
+    max-width: calc(100% - 96px);
     min-height: 52px;
     display: flex;
     justify-content: flex-end;
@@ -20,7 +20,7 @@
     .header{
     margin: 16px auto 48px;
     max-width: calc(100% - 32px);
-    height: 42px;
+    min-height: 42px;
     }
 }
 
