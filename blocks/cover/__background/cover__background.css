@@ -4,5 +4,18 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .cover__background{
+      gap: 16px;
+    }
 }
