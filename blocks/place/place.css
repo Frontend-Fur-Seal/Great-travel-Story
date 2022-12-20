@@ -2,9 +2,8 @@
 display: grid;
 grid-template-areas: 
 "title website"
-"image paragraph-first-of-type"
-"image paragraph";
-column-gap: 40px;
+"image paragraphs";
+gap: 48px 40px;
 grid-template-columns: fit-content(460px) fit-content(484px) ;
 } 
 
@@ -28,8 +27,7 @@ grid-template-columns: fit-content(460px) fit-content(484px) ;
       "title"
       "website"
       "image" 
-      "paragraph-first-of-type"
-      "paragraph";
+      "paragraphs";
       grid-template-columns: minmax(min-content, max-content);
       row-gap: 32px;
 

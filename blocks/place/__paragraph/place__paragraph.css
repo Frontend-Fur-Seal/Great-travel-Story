@@ -1,20 +1,8 @@
 .place__paragraph{
-  grid-area: paragraph;
   margin: 0;
-  font-size: 18px;
-  line-height: 29.34px;
 }
 
-.place__paragraph:first-of-type{
-    grid-area: paragraph-first-of-type;
-
-}
-
-@media screen and (max-width: 768px) {
-  .place__paragraph{
-    font-size: 16px;
-    line-height: 26.08px;
-    padding: 0 16px;
-    box-sizing: border-box;
-  }
+.place__paragraph:nth-child(2){
+  padding-top: 27px;
+  box-sizing: border-box;
 }
