@@ -5,6 +5,7 @@ grid-template-areas:
 "image paragraph-first-of-type"
 "image paragraph";
 column-gap: 40px;
+row-gap: 48px;
 grid-template-columns: fit-content(460px) fit-content(484px) ;
 } 
 
