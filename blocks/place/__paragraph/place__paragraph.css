@@ -9,3 +9,12 @@
     grid-area: paragraph-first-of-type;
 
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragraph{
+    font-size: 16px;
+    line-height: 26.08px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}
