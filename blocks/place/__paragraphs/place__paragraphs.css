@@ -3,6 +3,9 @@
     margin: 0;
     font-size: 18px;
     line-height: 29.34px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
   }
   
   @media screen and (max-width: 1024px) {
